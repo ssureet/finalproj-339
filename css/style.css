@@ -13,7 +13,7 @@
 /* Style header and nav */
 header {
     display: flex;
-    background-color: #966e69;
+    background-color: #5C0819;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
@@ -31,7 +31,7 @@ h1{
 }
 
 .nav_pages{
-    background-color: #966e69;
+    background-color: #5C0819;
     padding: 10px;
 }
 
@@ -64,7 +64,7 @@ ul a{
 /* Style footer */
 
 footer{
-    background-color: #966e69;
+    background-color: #5C0819;
 }
 footer p{
     text-align: right;
@@ -169,7 +169,7 @@ main{
 
   .intro > p{
     font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: #AA422F;
     padding: 20px 20px;
     border:#5C0819 solid 3px;
@@ -198,7 +198,7 @@ main{
 
   .experience > p{
     font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: #AA422F;
     padding: 20px 20px;
     border:#5C0819 solid 3px;
@@ -227,7 +227,7 @@ main{
 
   .accomplishments > p{
     font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: #AA422F;
     padding: 20px 20px;
     border:#5C0819 solid 3px;
@@ -354,7 +354,7 @@ h3.event{
 }
 
 .odd > .desc{
-  background-color: #883425;
+  background-color: #572118;
   z-index: 4;
   width: 112%;
   margin-left: -10.5%;
@@ -374,7 +374,7 @@ h3.event{
 
 .even > .desc{
   z-index: 2;
-  background-color: #AA422F;
+  background-color: #883425;
   width: 112%;
   transform: perspective(2400px) rotateY(35deg);
   grid-column: 2 / 4;
@@ -428,7 +428,7 @@ img {
 }
 
 /* Tablet breakpoint */
-@media screen and (min-width: 800px){
+@media screen and (min-width: 766px){
 
   /* Reformat header */
   header{
@@ -500,7 +500,6 @@ h3.portrait{
 .portrait_gallery {
   width: 93%;
   border: 5px double #5C0819;
-  border-radius: 5%;
 }
 
 .port_box {
@@ -539,14 +538,14 @@ h3.event{
 
 #grid { 
   padding-top: 30px;
-  grid-template-columns: repeat(2, 360px);
+  grid-template-columns: repeat(2, 320px);
   justify-content: center;
 }
 
 }
 
-/* Laptop breakpoint */
-@media screen and (min-width: 1000px){
+/* Desktop breakpoint */
+@media screen and (min-width: 1366px){
 
   /* Reformat header */ 
   header{
@@ -642,8 +641,9 @@ h3.event{
 #grid { 
   margin: auto;
   padding-top: 30px;
-  grid-template-columns: repeat(3, 350px);
+  grid-template-columns: repeat(3, 400px);
   row-gap: 20px;
+  column-gap: 15px;
 }
 
 }
