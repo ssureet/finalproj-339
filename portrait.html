@@ -2,41 +2,72 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
-    <link rel="stylesheet" type="text/css" href="css/starter.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Portrait Photography</title>
 </head>
 
 <body>
-	<a class = "skip" href="#skip">Skip to Main Content</a>
+	<a class = "skip" href="#main">Skip to Main Content</a>
 	<header>
+		<div class = "title">
+			<h1>Sureet Sarau Photography</h1>
+		</div>
 		<nav>
-			<ul>
-				<li><a href = "index.html" >Home</a></li>
-				<li class="active"><a href = "portrait.html">Portrait Photography</a></li>
-				<li></liclass><a href = "event.html">Event Photography</a></li>
+			<ul class = "nav_pages">
+				<li class = "nav_item"><a href = "index.html" >Home</a></li>
+				<li class = "nav_item active"><a href = "portrait.html">Portrait Photography</a></li>
+				<li class="nav_item"><a href = "event.html">Event Photography</a></li>
 			</ul>
 		</nav>
-		<h1>Portrait Photography</h1>
 	</header>
 
-    <main>
-		<p>Some examples of my portrait photography</p>
-			<img src = "portrait/p1.jpg"/>
-			<img src = "portrait/p2.jpg">
-            <img src = "portrait/p3.jpg">
-            <img src = "portrait/p4.jpg">
-            <img src = "portrait/p5.jpg">
-            <img src = "portrait/p6.jpg">
-            <img src = "portrait/p7">
-            <img src = "portrait/p8.jpg">
-            <img src = "portrait/p9.jpg">
-			
+    <main id = "main">
+		<h2 class = "portrait">Portrait Photography</h2>
+		<h3 class = "portrait">Below are some of my previous portrait images. 
+			<br> Hover over a specific image to get a closer look at it</h3>
+		<div class = "portrait_gallery">
+			<div class = "port_box">
+				<img src = "portrait/p1.jpg" alt = "University of Michigan Student in Diag for SHEI Street Style,  November 2021"/>
+				<span>Nov 2021</span>
+			</div>
+			<div class = "port_box">
+				<img src = "portrait/p2.jpg" alt = "Euphoria themed Studio Photoshoot, October 2020">
+				<span>Oct 2020</span>
+			</div>
+			<div class = "port_box">
+            	<img src = "portrait/p3.jpg" alt = "University of Michigan Student in parking garage for SHEI Street Style, January 2022">
+				<span>Jan 2022</span>
+			</div>
+			<div class = "port_box">
+            	<img src = "portrait/p4.jpg" alt = "Self portrait in studio setting, February 2022">
+				<span>Feb 2022</span>
+			</div>
+			<div class = "port_box">
+            	<img src = "portrait/p5.jpg" alt = "Studio nature themed photoshoot, March 2022">
+				<span>March 2022</span>
+			</div>
+			<div class = "port_box">
+           		<img src = "portrait/p6.jpg" alt = "University of Michigan graduation photo in law quad, April 2022">
+				<span>April 2022</span>
+			</div>
+			<div class = "port_box">
+            	<img src = "portrait/p7.jpg" alt = "Model in Downtown setting, August 2020">
+				<span>Aug 2020</span>
+			</div>
+			<div class = "port_box">
+            	<img src = "portrait/p8.jpg" alt = "University of Michigan Student near UMMA for SHEI Street Style, November 2022">
+				<span>Nov 2022</span>
+			</div>
+			<div class = "port_box">
+            	<img src = "portrait/p9.jpg" alt = "Model in monochrome orange outfit with orange background, March 2021">
+				<span>March 2021</span>
+			</div>
+		</div>
 	</main>
 
 	<footer>
-		
+		<p>&copy; Sureet Sarau, 2022</p>
 	</footer>
 </body>
 </html>
